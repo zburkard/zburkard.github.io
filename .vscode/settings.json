@@ -1,0 +1,36 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#2df77e",
+    "activityBar.background": "#2df77e",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#a165f9",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#2df77e",
+    "statusBar.background": "#09e862",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#07b74d",
+    "statusBarItem.remoteBackground": "#09e862",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#09e862",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#09e86299",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#09e862",
+  "cSpell.words": [
+    "Abdulrazak",
+    "CAROSEL",
+    "Hridoy",
+    "jukarbarg",
+    "keepr",
+    "MAGNIFICANT",
+    "Moath",
+    "onepage",
+    "porttrait",
+    "Rahman",
+    "Tanvir",
+    "webdesign"
+  ]
+}
