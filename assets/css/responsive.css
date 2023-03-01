@@ -47,6 +47,9 @@ Version      : 1.0
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    html{
+        overflow-x: hidden;
+    }
     .site-header .navbar-collapse {
         opacity: 1;
         visibility: visible;
@@ -93,7 +96,7 @@ Version      : 1.0
         font-size: 30px;
     }
     .section-title h2 {
-        font-size: 30px;
+        font-size: 45px;
     }
     .single-project-complete h2 {
         font-size: 40px;
@@ -129,6 +132,11 @@ Version      : 1.0
     .single-contact-details i {
         margin-bottom: 20px;
     }
+    .single-service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .single-service,
     .single-blog {
         margin-bottom: 30px;
@@ -147,7 +155,9 @@ Version      : 1.0
     .about-text ul li {
         width: 100%;
     }
-    .single-service i {
+    .single-service img {
+        height:25vh;
+        width: 25vh;
         margin-bottom: 105px;
     }
 }

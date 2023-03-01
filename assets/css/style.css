@@ -31,17 +31,22 @@ Version      : 1.0
 */
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 24px;
     height: 100%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #dbdbdb;
     -color: #000000;
 }
 
 .header-text {
-    color: #cd3c74;
+    color: #ffffff;
+}
+.social-icon{
+    height: 8vh;
+    width: 8vh;
 }
 
 .neon {
@@ -103,7 +108,8 @@ body {
 
 html,
 body {
-    height: 100%
+    height: 100%;
+    width: 100%;
 }
 
 h1,
@@ -128,13 +134,11 @@ img {
 }
 
 a:hover {
-    color: #fff;
-    text-decoration: none;
+    color: #1424ff;
 }
 
 a:focus {
     outline: none;
-    text-decoration: none;
 }
 
 p {
@@ -309,9 +313,15 @@ fieldset {
 
 .header-text h1 {
     color: #fafafa;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 900;
     text-transform: capitalize;
+}
+.header-text h2 {
+    color: #fafafa;
+        font-size: 60px;
+        font-weight: 900;
+        text-transform: capitalize;
 }
 
 .header-text .home-arrow-down {
@@ -457,7 +467,7 @@ fieldset {
 
 .project-vfx {
     display: flex;
-    padding: 1em;
+    padding: 2em;
 }
 
 .menu-bg .logo {
@@ -606,7 +616,7 @@ fieldset {
     margin-bottom: 25px;
     color: #dfdbdb;
     letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .about-text p {
@@ -701,7 +711,7 @@ fieldset {
 }
 
 ul.work {
-    padding: 0;
+    padding: 3;
     list-style: none;
     text-align: center;
     margin-bottom: 30px;
@@ -710,9 +720,9 @@ ul.work {
 ul.work li {
     display: inline-block;
     padding-bottom: 4px;
-    margin: 0 8px;
+    margin: 0 12px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 300;
     color: #ededed;
     border: none;
@@ -732,12 +742,12 @@ ul.work li.active {
 }
 
 .work .item {
-    padding: 0;
+    padding: 5;
     margin: 0;
 }
 
 .work .col-md-4 {
-    padding: 0;
+    padding: 5;
     margin: 0;
 }
 
@@ -762,8 +772,8 @@ ul.work li.active {
     height: auto;
     text-align: center;
     cursor: pointer;
-    padding: 0;
-    margin: 0;
+    padding: 3;
+    margin: 2;
 }
 
 .work .grid figure:hover {
@@ -772,6 +782,7 @@ ul.work li.active {
 
 .img-size {
     height: 35vh;
+    width: 100%;
     position: center;
     background-position: center;
     background-size: cover;
@@ -968,6 +979,7 @@ ul.work li.active {
 
 .header-links ul li a {
     color: #fafafa;
+    font-size: 45px;
 }
 
 .footer-area p {
